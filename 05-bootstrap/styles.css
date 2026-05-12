@@ -1,23 +1,7 @@
-h1 {
-  text-align: center;
+.ira-form {
+  max-width: 500px;
 }
 
-form {
-  max-width: 600px;
-}
-
-form > * {
-  margin: 1rem;
-}
-
-.row > * {
-  height: 160px;
-  border: 1px solid var(--white);
-  background-color: var(--purple);
-  color: var(--white);
-  font-size: 1.4em;
-}
-
-.box {
-  height: 160px;
+.text-primary {
+  color: rgb(1, 1, 75) !important;
 }
