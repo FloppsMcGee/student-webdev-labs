@@ -156,13 +156,17 @@
               neighbouring farmer and cat-fancier.
             </p>
           </div>
-          <a class="more-info-button">More Info</a>
+          <button class="more-info-button" type="button">More Info</button>
         </div>
         <div class="popup-section-container">
           <div class="popup-section">
             <div class="space-between-distributed-row-container">
               <h3>Origin</h3>
-              <button class="close-popup-button">
+              <button
+                class="close-popup-button"
+                aria-label="close popup window"
+                title="close popup window"
+              >
                 <i class="fa-solid fa-xmark"></i>
               </button>
             </div>
@@ -205,7 +209,11 @@
           <div class="popup-section">
             <div class="space-between-distributed-row-container">
               <h3>Acceptance</h3>
-              <button class="close-popup-button">
+              <button
+                class="close-popup-button"
+                aria-label="close popup window"
+                title="close popup window"
+              >
                 <i class="fa-solid fa-xmark"></i>
               </button>
             </div>
@@ -489,13 +497,13 @@
           cols="30"
           rows="10"
         ></textarea>
+        <div
+          class="form space-evenly-distributed-row-container form-buttons-container"
+        >
+          <input class="form-button" type="submit" value="submit" />
+          <input class="form-button" type="reset" value="reset" />
+        </div>
       </form>
-      <div
-        class="form space-evenly-distributed-row-container form-buttons-container"
-      >
-        <input class="form-button" type="submit" value="submit" />
-        <input class="form-button" type="reset" value="reset" />
-      </div>
     </div>
 
     <footer class="footer">
